@@ -1,5 +1,9 @@
 <?php
 
+/**
+ *  API pour récupérer les stats d'un serveur sur RPG Paradize
+ *  @author MineTheCube
+ */
 Class RpgStats {
 
     private $id;
