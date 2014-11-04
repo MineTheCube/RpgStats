@@ -6,6 +6,13 @@ A quoi ça sert ?
 
 Cette API s'utilise en PHP, et permet de connaitre la position, le nombre de votes et d'OUT d'un serveur classé sur rpg-paradize.com
 
+Ou le télécharger ?
+---------
+
+Téléchargez la dernière version juste ici:
+https://github.com/MineTheCube/RpgStats/releases
+
+Vous obtiendrez une archive contenant 2 fichiers PHP: l'API et un exemple d'utilisation.
 
 Comment l'utiliser ?
 ---------
