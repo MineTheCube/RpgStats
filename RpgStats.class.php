@@ -47,9 +47,9 @@ Class RpgStats {
         if (empty($html))
             throw new Exception('Impossible d\'obtenir la page.');
         $this->html = $html;
-        $this->position = intval($this->textBetween($html, '" width=88 height=31><br><br><b>Position ', '</b><br><br><a'));
-        $this->votes = intval($this->textBetween($html, '">Vote : ', '</a><br><br>Clic Sortant : '));
-        $this->out = intval($this->textBetween($html, '</a><br><br>Clic Sortant : ', '</td></tr><tr><td colspan=3 align=left><br>'));
+        $this->position = intval($this->textBetween($html, '<br /><br /><b>Position ', '</b><br><br>Clic Sortant : '));
+        $this->votes = intval($this->textBetween($html, '">Vote : ', '</a></div></td></tr></table>'));
+        $this->out = intval($this->textBetween($html, '</b><br><br>Clic Sortant : ', '</td></tr></table><hr>'));
         return true;
     }
     
